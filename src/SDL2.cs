@@ -107,6 +107,10 @@ namespace SDL2
 		[DllImport(nativeLibName, CallingConvention = CallingConvention.Cdecl)]
 		public static extern IntPtr SDL_RWFromMem(byte[] mem, int size);
 
+		[DllImport(nativeLibName, EntryPoint = "SDL_RWFromMem", CallingConvention = CallingConvention.Cdecl)]
+		public unsafe static extern IntPtr SDL_RWFromMemNative(byte *mem, int size);
+
+
 		#endregion
 
 		#region SDL_main.h
