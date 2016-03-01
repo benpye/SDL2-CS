@@ -4,3 +4,5 @@ obj/
 *.userprefs
 *.suo
 _ReSharper.Caches/
+.vs/
+project.lock.json
