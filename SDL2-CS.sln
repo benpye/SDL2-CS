@@ -1,8 +1,16 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL2-CS", "SDL2-CS.csproj", "{85480198-8711-4355-830E-72FD794AD3F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{65A85C9C-371C-4ED0-8263-08BA18FF970B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DEA2B81D-8D08-4030-81E8-2B4F748954A1}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SDL2-CS", "src\SDL2-CS\SDL2-CS.xproj", "{4ACE6B1A-2787-49EB-A4CF-C23D02E89123}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,21 +22,20 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{85480198-8711-4355-830E-72FD794AD3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85480198-8711-4355-830E-72FD794AD3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85480198-8711-4355-830E-72FD794AD3F6}.Debug|x64.ActiveCfg = Debug|x64
-		{85480198-8711-4355-830E-72FD794AD3F6}.Debug|x64.Build.0 = Debug|x64
-		{85480198-8711-4355-830E-72FD794AD3F6}.Debug|x86.ActiveCfg = Debug|x86
-		{85480198-8711-4355-830E-72FD794AD3F6}.Debug|x86.Build.0 = Debug|x86
-		{85480198-8711-4355-830E-72FD794AD3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85480198-8711-4355-830E-72FD794AD3F6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{85480198-8711-4355-830E-72FD794AD3F6}.Release|x64.ActiveCfg = Release|x64
-		{85480198-8711-4355-830E-72FD794AD3F6}.Release|x64.Build.0 = Release|x64
-		{85480198-8711-4355-830E-72FD794AD3F6}.Release|x86.ActiveCfg = Release|x86
-		{85480198-8711-4355-830E-72FD794AD3F6}.Release|x86.Build.0 = Release|x86
+		{4ACE6B1A-2787-49EB-A4CF-C23D02E89123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACE6B1A-2787-49EB-A4CF-C23D02E89123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACE6B1A-2787-49EB-A4CF-C23D02E89123}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4ACE6B1A-2787-49EB-A4CF-C23D02E89123}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4ACE6B1A-2787-49EB-A4CF-C23D02E89123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACE6B1A-2787-49EB-A4CF-C23D02E89123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ACE6B1A-2787-49EB-A4CF-C23D02E89123}.Release|x64.ActiveCfg = Release|Any CPU
+		{4ACE6B1A-2787-49EB-A4CF-C23D02E89123}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4ACE6B1A-2787-49EB-A4CF-C23D02E89123} = {65A85C9C-371C-4ED0-8263-08BA18FF970B}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = SDL2-CS.csproj
